@@ -1,0 +1,29 @@
+{
+    "name": "Adminas",
+    "email": "adminas12352343333@gmail.com", 
+    "password": "admin123",
+    "birthDate": {
+      "day": "3",
+      "month": "March",
+      "year": "1995"
+    },
+    "preferences": {
+      "newsletter": true,
+      "optin": true
+    },
+    "personalInfo": {
+      "firstName": "adminas",
+      "lastName": "adminatorius",
+      "company": "adminuKompanija"
+    },
+    "address": {
+      "address1": "adminStreet505",
+      "address2": "adminStreet505",
+      "country": "United States",
+      "state": "Florida",
+      "city": "Eagle Lake",
+      "zipcode": "FL 34207",
+      "phone":"+370666652654"
+    }
+  }
+  
