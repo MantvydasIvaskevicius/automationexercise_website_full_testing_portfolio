@@ -10,7 +10,7 @@ export class Checkout{
         cy.get("#address_invoice").should('be.visible');
     }
 
-    checkOutCommect(){
+    checkOutComment(){
         cy.get("textarea[name='message']").type('send ASAP')
         cy.get('.btn.btn-default.check_out').click();
     }

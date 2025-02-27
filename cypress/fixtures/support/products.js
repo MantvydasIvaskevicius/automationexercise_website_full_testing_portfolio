@@ -59,7 +59,7 @@ export class Products {
         // cy.get('.btn.btn-success.close-modal.btn-block').click()
 
     }
-    prodWiew() {
+    prodview() {
         cy.get("a[href='/product_details/1']").click();
 
     }

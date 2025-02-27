@@ -68,7 +68,7 @@ describe('automationexercise.com test scripts', () => {
         cart.verifyProductsInCart();
     });
     it("Test Case 13: Verify Product quantity in Cart", () => {
-        products.prodWiew();
+        products.prodview();
         products.prodVisible();
         products.prodQuantity();
         cart.cartClick();
@@ -83,9 +83,9 @@ describe('automationexercise.com test scripts', () => {
         signup.signUpFaker();
         signup.AccCreate();
         cart.cart();
-        cart.cartProcedChechoutBtn();
+        cart.cartProceedCheckoutBtn();
         checkout.checkOutadressVerify();
-        checkout.checkOutCommect();
+        checkout.checkOutComment();
         payment.paymentDataNdelete();
     });
 
@@ -96,9 +96,9 @@ describe('automationexercise.com test scripts', () => {
        products.prodAddToCart();
         cart.cartClckNavbar();
         cart.cartPage();
-        cart.cartProcedChechoutBtn();
+        cart.cartProceedCheckoutBtn();
         checkout.checkOutadressVerify();
-        checkout.checkOutCommect();
+        checkout.checkOutComment();
         payment.paymentDataNdelete();
     });
     it("Test Case 16: Place Order: Login before Checkout", () => {
@@ -109,7 +109,7 @@ describe('automationexercise.com test scripts', () => {
         cart.cartPage();
         checkout.checkoutClck();
         checkout.checkOutadressVerify();
-        checkout.checkOutCommect();
+        checkout.checkOutComment();
         payment.paymentData2();
     });
     it("Test Case 17: Remove Products From Cart", () => {

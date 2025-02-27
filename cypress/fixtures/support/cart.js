@@ -18,7 +18,7 @@ export class Cart {
         cy.get('.quantity').should('contain', 'Quantity')
         cy.get('.total').should('contain', 'Total')
     }
-    cartProcedChechoutBtn() {
+    cartProceedCheckoutBtn() {
         cy.get(".btn.btn-default.check_out").click();
 
     }
