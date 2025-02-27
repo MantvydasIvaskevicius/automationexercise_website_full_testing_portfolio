@@ -8,8 +8,10 @@ export class Login {
 
     };
     verifyLogOut() {
-        cy.get('li > a').should('be.visible').and('contain.text', 'Logged in as');
-        cy.get('.nav').contains('Logout').click();
+        cy.fixture('user').then((user) => {
+            cy.get('li > a').should('be.visible').and('contain.text', `Logged in as ${user.name}`);
+            cy.get('.nav').contains('Logout').click();
+        });
     }
     loginDataWrong() {
         cy.get("div[class='login-form'] h2").should('have.text', 'Login to your account').and('be.visible');

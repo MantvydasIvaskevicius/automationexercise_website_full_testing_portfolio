@@ -59,7 +59,12 @@ describe('automationexercise.com test scripts', () => {
         products.prodSearch();
         products.prodVerify();
     });
+    it("Test Case 10: Verify Subscription in home page",()=>{
+        products.prodSub();
+    })
+
     it("Test Case 11: Verify Subscription in Cart page", () => {
+        cart.cartClckNavbar();
         products.prodSub();
     });
     it("Test Case 12: Add Products in Cart", () => {
