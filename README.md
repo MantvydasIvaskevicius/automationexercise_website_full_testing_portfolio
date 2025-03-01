@@ -6,12 +6,6 @@ This repository includes automated tests for an e-commerce website, using the Cy
 
 ---
 
-# 📝 Test Cases Overview
-
-Welcome to the **Test Cases Documentation**! This document outlines all **UI** and **API** test cases to ensure the smooth functioning of the e-commerce website. Each test case is designed to verify critical functionalities, enhancing user experience and security. ✅
-
----
-
 ## 🖥️ UI Test Cases
 These test cases validate the user interface and its interactions.
 
