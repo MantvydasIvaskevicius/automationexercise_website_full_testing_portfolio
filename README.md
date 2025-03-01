@@ -6,9 +6,7 @@ This repository includes automated tests for an e-commerce website, using the Cy
 
 ---
 
-## 📝 Test Cases
-
-🖥️ UI Test Cases
+##🖥️ UI Test Cases
 
 These test cases validate the user interface and its interactions.
 
