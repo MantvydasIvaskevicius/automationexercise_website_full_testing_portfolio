@@ -6,43 +6,85 @@ This repository includes automated tests for an e-commerce website, using the Cy
 
 ---
 
-##🖥️ UI Test Cases
+# 📝 Test Cases Overview
 
+Welcome to the **Test Cases Documentation**! This document outlines all **UI** and **API** test cases to ensure the smooth functioning of the e-commerce website. Each test case is designed to verify critical functionalities, enhancing user experience and security. ✅
+
+---
+
+## 🖥️ UI Test Cases
 These test cases validate the user interface and its interactions.
 
-🔑 Authentication
+### 🔑 Authentication
+- [x] Register a new user
+- [x] Login with correct email and password
+- [x] Login with incorrect email and password
+- [x] Logout functionality
+- [x] Attempt to register with an existing email
 
+### 📞 User Interactions
+- [x] Submit the "Contact Us" form
+- [x] Verify the "Test Cases" page
 
+### 🛍️ Product & Cart Management
+- [x] View all products and product detail pages
+- [x] Search for a product
+- [x] Verify subscription feature on the home page
+- [x] Verify subscription feature on the cart page
+- [x] Add products to the cart
+- [x] Verify product quantity in the cart
+- [x] Remove products from the cart
+- [x] View category-based products
+- [x] View & add brand-based products
+- [x] Search for products and verify cart after login
+- [x] Add a review for a product
+- [x] Add to cart from "Recommended Items"
 
-📞 User Interactions
+### 🛒 Checkout & Order Processing
+- [x] Place an order with a new user registration during checkout
+- [x] Place an order with a registered user before checkout
+- [x] Place an order after logging in before checkout
+- [x] Verify address details in the checkout page
+- [x] Download invoice after purchase
 
+### 🔄 UI Navigation & Scrolling
+- [x] Verify scroll up functionality using the 'Arrow' button
+- [x] Verify scroll up functionality without the 'Arrow' button
+- [x] Verify scroll down functionality
 
+---
 
-🛍️ Product & Cart Management
-
-
-
-🛒 Checkout & Order Processing
-
-
-
-🔄 UI Navigation & Scrolling
-
-
-
-🔗 API Test Cases
-
+## 🔗 API Test Cases
 These test cases ensure that API endpoints function as expected.
 
-📦 Product & Brand APIs
+### 📦 Product & Brand APIs
+- [x] GET all products list
+- [x] POST to all products list
+- [x] GET all brands list
+- [x] PUT to all brands list
 
+### 🔍 Search & Authentication APIs
+- [x] POST to search product
+- [x] POST to search product without the **search_product** parameter
+- [x] POST to verify login with valid details
+- [x] POST to verify login without the **email** parameter
+- [x] DELETE method to verify login
+- [x] POST to verify login with invalid details
 
+### 👤 User Account APIs
+- [x] POST to create/register user account
+- [x] DELETE method to delete user account
+- [x] PUT method to update user account
+- [x] GET user account details by email
 
-🔍 Search & Authentication APIs
+---
 
+### 🚀 Testing Guidelines
+- Ensure all tests are executed in both **staging** and **production** environments.
+- Log test results, errors, and edge cases for further analysis.
+- Automate repetitive UI test cases where possible using **Selenium**.
 
-
-👤 User Account APIs
+Happy Testing! 🧪✅
 
 
 ---
