@@ -8,51 +8,44 @@ This repository includes automated tests for an e-commerce website, using the Cy
 
 ## 📝 Test Cases
 
-### 🖥️ UI Test Cases
+🖥️ UI Test Cases
 
-✅ **Register User**\
-✅ **Login User with correct email and password**\
-✅ **Login User with incorrect email and password**\
-✅ **Logout User**\
-✅ **Register User with existing email**\
-✅ **Contact Us Form**\
-✅ **Verify Test Cases Page**\
-✅ **Verify All Products and product detail page**\
-✅ **Search Product**\
-✅ **Verify Subscription in home page**\
-✅ **Verify Subscription in Cart page**\
-✅ **Add Products in Cart**\
-✅ **Verify Product quantity in Cart**\
-✅ **Place Order: Register while Checkout**\
-✅ **Place Order: Register before Checkout**\
-✅ **Place Order: Login before Checkout**\
-✅ **Remove Products From Cart**\
-✅ **View Category Products**\
-✅ **View & Cart Brand Products**\
-✅ **Search Products and Verify Cart After Login**\
-✅ **Add review on product**\
-✅ **Add to cart from Recommended items**\
-✅ **Verify address details in checkout page**\
-✅ **Download Invoice after purchase order**\
-✅ **Verify Scroll Up using 'Arrow' button and Scroll Down functionality**\
-✅ **Verify Scroll Up without 'Arrow' button and Scroll Down functionality**
+These test cases validate the user interface and its interactions.
 
-### 🔗 API Test Cases
+🔑 Authentication
 
-✅ **Get All Products List**\
-✅ **POST To All Products List**\
-✅ **Get All Brands List**\
-✅ **PUT To All Brands List**\
-✅ **POST To Search Product**\
-✅ **POST To Search Product without search\_product parameter**\
-✅ **POST To Verify Login with valid details**\
-✅ **POST To Verify Login without email parameter**\
-✅ **DELETE To Verify Login**\
-✅ **POST To Verify Login with invalid details**\
-✅ **POST To Create/Register User Account**\
-✅ **DELETE METHOD To Delete User Account**\
-✅ **PUT METHOD To Update User Account**\
-✅ **GET user account detail by email**
+
+
+📞 User Interactions
+
+
+
+🛍️ Product & Cart Management
+
+
+
+🛒 Checkout & Order Processing
+
+
+
+🔄 UI Navigation & Scrolling
+
+
+
+🔗 API Test Cases
+
+These test cases ensure that API endpoints function as expected.
+
+📦 Product & Brand APIs
+
+
+
+🔍 Search & Authentication APIs
+
+
+
+👤 User Account APIs
+
 
 ---
 
