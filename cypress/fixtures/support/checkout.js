@@ -17,7 +17,4 @@ export class Checkout{
 
 
 
-
-
-    
 }
