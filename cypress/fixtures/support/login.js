@@ -11,6 +11,9 @@ export class Login {
         cy.fixture('user').then((user) => {
             cy.get('li > a').should('be.visible').and('contain.text', `Logged in as ${user.name}`);
             cy.get('.nav').contains('Logout').click();
+
+
+            
         });
     }
     loginDataWrong() {
