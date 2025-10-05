@@ -6,6 +6,8 @@ export class Login {
         cy.get("input[placeholder='Password']").type('admin123');
         cy.get("button[data-qa='login-button']").click();
 
+
+        
     };
     verifyLogOut() {
         cy.fixture('user').then((user) => {
