@@ -15,7 +15,7 @@ export class Login {
             cy.get('.nav').contains('Logout').click();
 
 
-            
+    
         });
     }
     loginDataWrong() {
