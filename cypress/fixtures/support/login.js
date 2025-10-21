@@ -7,7 +7,7 @@ export class Login {
         cy.get("button[data-qa='login-button']").click();
 
 
-        
+    
     };
     verifyLogOut() {
         cy.fixture('user').then((user) => {
