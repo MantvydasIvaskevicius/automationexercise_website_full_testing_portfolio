@@ -8,6 +8,8 @@ export class Login {
 
 
     
+
+    
     };
     verifyLogOut() {
         cy.fixture('user').then((user) => {
