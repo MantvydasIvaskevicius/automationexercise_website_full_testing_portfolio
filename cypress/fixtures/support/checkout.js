@@ -15,4 +15,6 @@ export class Checkout{
         cy.get(".col-sm-6 > .btn").click();
     }
 
+
+    
 }
