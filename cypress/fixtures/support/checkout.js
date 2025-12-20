@@ -14,7 +14,4 @@ export class Checkout{
     checkoutClck(){
         cy.get(".col-sm-6 > .btn").click();
     }
-
-    
-
 }
