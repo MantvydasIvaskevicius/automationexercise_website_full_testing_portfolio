@@ -6,6 +6,7 @@ This repository includes automated tests for an e-commerce website, using the Cy
 
 ---
 
+
 ## 🖥️ UI Test Cases
 These test cases validate the user interface and its interactions.
 
@@ -134,5 +135,6 @@ npm run test:firefox   # Run in Firefox
 npm run test:edge      # Run in Edge
 npm run test:electron  # Run in Electron
 ```
+
 
 
